@@ -1,0 +1,123 @@
+@import "normalize.scss";
+@import "variables.scss";
+@import "mediaqueries.scss";
+@import "mixins.scss";
+
+
+header {
+    position:relative;
+    margin: 0;
+    width:100%;
+    height:500px;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index:-1;
+}
+
+img {
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 215px;
+}
+
+ul {
+  float: right;
+  margin-right: 225px;
+  margin-top: 30px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+  color: $blue;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: $blue;
+  color: white;
+}
+
+h1 {
+  color: $blue;
+  margin-top: 115px;
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  @include font;
+}
+
+.ourpledgesection {
+  background-color: $blue;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: white;
+}
+.ourpledgeline {
+  margin: 0 215px 0 215px;
+}
+.ourpledgeparagraph {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 16px;
+  margin: 0 210px 0 210px;
+  line-height: 200%;
+}
+
+.theissuessection {
+  background-color: $gray;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.theissues, h3, .contactinfo {
+  color: $blue;
+}
+
+.theissuesline {
+  color: $textgray;
+  margin: 0 250px 0 250px;
+}
+
+.theissuesparagraph {
+  text-align: center;
+  padding-top: 10px;
+  color: $textgray;
+  font-size: 16px;
+  margin: 0 245px 0 245px;
+  line-height: 200%;
+}
+
+div {
+  margin: 0 auto;
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
+article {
+  display: inline-block;
+  background-color: white;
+  width: 20%;
+
+}
+
+.fa-power-off {
+  height: 25px;
+  color: $blue;
+}

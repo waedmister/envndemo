@@ -4,28 +4,29 @@
     <script src="https://use.fontawesome.com/4e0e23a4a0.js"></script>
     <meta charset="utf-8">
     <title>envndemo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="script.js"></script>
   </head>
   <body>
 
     <header>
 
+      <video autoplay loop poster="images/Up.jpg">
+        <source src="images/Up.webm" type="video/webm">
+        <source src="images/Up.ogv" type="video/ogv">
+        <source src="images/Up.mp4" type="video/mp4">
+      </video>
+
       <nav>
         <img src="images/logo-header.png" alt="NC Conservation logo of an evergreen tree">
         <ul>
-          <li>About Us</li>
-          <li>Take Action</li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Take Action</a></li>
         </ul>
       </nav>
 
       <h1>NC Conservation Network</h1>
       <h3 class="sitetagline">Protecting North Carolina's air, water, and quality of life</h3>
-      <video poster="images/Up.jpg">
-        <source src="images/Up.webm" type="video/webm">
-        <source src="images/Up.ogv" type="video/ogv">
-        <source src="images/Up.mp4" type="video/mp4">
-      </video>
 
     </header>
 
@@ -43,10 +44,9 @@
       <hr class="theissuesline">
       <p class="theissuesparagraph">The NC Conservation Network supports, trains, and coordinates diverse groups and directly advocates to achieve equitable and sustainable solutions for our environment. We focus on a varitey of issues.</p>
 
-    </section>
-
+      <div>
       <article>
-        <!--logo goes here-->
+        <i class="fa fa-power-off" aria-hidden="true"></i>
         <h3>Energy</h3>
         <p>North Carolina is ranked among the top states in the country for solar energy.</p>
       </article>
@@ -68,12 +68,12 @@
         <h3>Coal Ash</h3>
         <p>Coal ash is the waste that is generated when power plants burn coal to produce electricity.</p>
       </article>
-
+    </div>
       <hr>
 
-      <p class="address">19 E. Martin Street, Raleigh, NC 27601</p>
-      <p class="phonenumber">919-857-4699</p>
-      <p class="emailaddress">info@ncconservationnetwork.org</p>
+      <p class="contactinfo">19 E. Martin Street, Raleigh, NC 27601</p>
+      <p class="contactinfo">919-857-4699</p>
+      <p class="contactinfo">info@ncconservationnetwork.org</p>
 
   </section>
   </body>
