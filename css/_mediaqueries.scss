@@ -1,0 +1,68 @@
+@media (max-width: 767px) {
+  nav {
+      margin-left: 5px;
+      margin-right:5px;
+  }
+
+video {
+    width: auto;
+}
+
+h1, .sitetagline {
+  margin-top: auto;
+  padding: 0 10% 0 10%;
+}
+
+h1 {
+  line-height: 1.4;
+}
+
+.sitetagline {
+  line-height: 2.0;
+}
+
+.ourpledgesection {
+  padding-top: 25px;
+  padding-bottom: 65px;
+}
+.ourpledgeline {
+  margin: 0 10px 0 10px;
+}
+.ourpledgeparagraph {
+  padding-top: 10px;
+  margin: 0 5px 0 5px;
+  line-height: 200%;
+}
+.theissuessection {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.theissuesline {
+  margin: 0 30px;
+}
+
+.theissuesparagraph {
+  padding-top: 10px;
+  margin: 0 20px;
+  line-height: 200%;
+}
+article {
+  width: 100%;
+  height: 300px;
+  margin: 15px;
+}
+
+.page {
+padding: 0 35px 35px 15px;
+}
+
+.issueboxparagraph {
+  padding: 0 4px;
+}
+
+.contactinfo {
+  width: 100%;
+}
+
+}

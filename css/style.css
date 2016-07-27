@@ -378,27 +378,47 @@ video {
   z-index: -1; }
 
 img {
-  height: 75px;
-  margin-top: 20px;
-  margin-left: 215px; }
+  height: 75px; }
+
+nav {
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 20px; }
 
 ul {
   float: right;
-  margin-right: 225px;
-  margin-top: 30px; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
 li {
-  display: inline; }
+  display: inline-block;
+  margin-left: 5px; }
 
 a {
   text-decoration: none;
   background-color: white;
   color: #305291;
-  padding: 10px; }
+  padding: 10px 20px;
+  display: block; }
 
 a:hover {
   background-color: #305291;
   color: white; }
+
+.dropdown {
+  position: relative; }
+
+.dropnav {
+  position: absolute;
+  display: none; }
+
+.dropnav li {
+  width: 150px;
+  margin: 0; }
+
+.dropdown:hover .dropnav {
+  display: block; }
 
 h1 {
   color: #305291;
@@ -436,57 +456,117 @@ h1, h2, h3 {
   padding-top: 75px;
   padding-bottom: 75px; }
 
-.theissues, h3, .contactinfo {
+.theissues, .theissuesheader, .contactinfo {
   color: #305291; }
 
 .theissuesline {
   color: #666666;
-  margin: 0 250px 0 250px; }
+  margin: 0 20%; }
 
 .theissuesparagraph {
   text-align: center;
   padding-top: 10px;
   color: #666666;
   font-size: 16px;
-  margin: 0 245px 0 245px;
+  margin: 0 20%;
   line-height: 200%; }
-
-.page {
-  background-color: #f2f2f2;
-  height: 600px;
-  position: absolute; }
-
-.energy, .airandwater, .climatechange, .coalash {
-  position: relative;
-  display: inline-block;
-  width: 19%;
-  height: 400px;
-  border: 1px solid black;
-  background-color: white;
-  margin-right: 20px;
-  text-align: center;
-  padding: 10px 10px 45px 10px;
-  margin-bottom: 50px; }
 
 p {
   color: #666666;
   line-height: 200%; }
 
-i {
-  color: #305291;
-  border: 1px solid #305291;
-  padding: 15px;
-  margin: auto;
-  border-radius: 40px; }
+.page {
+  background-color: #f2f2f2;
+  padding: 0 20%; }
 
-i:hover {
-  color: white;
-  background-color: #305291; }
+article {
+  display: inline-block;
+  width: 22.6%;
+  background-color: white;
+  margin: 0 auto;
+  margin-right: 2%;
+  height: 300px;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 20px; }
+
+.fa {
+  width: 40px;
+  border: 1px solid #305291;
+  font-size: 40px;
+  color: #305291;
+  border-radius: 100%;
+  padding: 10px;
+  margin-top: 20px; }
+
+.fa:hover {
+  background-color: #305291;
+  color: white; }
+
+footer {
+  display: inline-block;
+  background-color: #f2f2f2;
+  width: 100%; }
 
 .contactinfo {
   display: inline-block;
-  width: 25%;
-  padding-left: 50px;
-  padding-right: 50px; }
+  text-align: center;
+  width: 33%; }
+
+@media (max-width: 767px) {
+  nav {
+    margin-left: 5px;
+    margin-right: 5px; }
+
+  video {
+    width: auto; }
+
+  h1, .sitetagline {
+    margin-top: auto;
+    padding: 0 10% 0 10%; }
+
+  h1 {
+    line-height: 1.4; }
+
+  .sitetagline {
+    line-height: 2.0; }
+
+  .ourpledgesection {
+    padding-top: 25px;
+    padding-bottom: 65px; }
+
+  .ourpledgeline {
+    margin: 0 10px 0 10px; }
+
+  .ourpledgeparagraph {
+    padding-top: 10px;
+    margin: 0 5px 0 5px;
+    line-height: 200%; }
+
+  .theissuessection {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
+  .theissuesline {
+    margin: 0 30px; }
+
+  .theissuesparagraph {
+    padding-top: 10px;
+    margin: 0 20px;
+    line-height: 200%; }
+
+  article {
+    width: 100%;
+    height: 300px;
+    margin: 15px; }
+
+  .page {
+    padding: 0 35px 35px 15px; }
+
+  .issueboxparagraph {
+    padding: 0 4px; }
+
+  .contactinfo {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
